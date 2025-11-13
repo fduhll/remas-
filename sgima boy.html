@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>رميـاس الحربي 🖤</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: radial-gradient(circle at top, #181818, #0a0a0a);
+      color: #eaeaea;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* خلفية متحركة ناعمة */
+    @keyframes shimmer {
+      0% {background-position: 0 0;}
+      100% {background-position: 1000px 1000px;}
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+      opacity: 0.15;
+      animation: shimmer 80s linear infinite;
+    }
+
+    .profile {
+      background: rgba(255,255,255,0.03);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 60px 40px;
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(150, 90, 200, 0.35);
+      max-width: 520px;
+      z-index: 2;
+      transition: 0.3s;
+    }
+
+    .profile:hover {
+      box-shadow: 0 0 45px rgba(184,138,245,0.6);
+      transform: translateY(-5px);
+    }
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.7em;
+      color: #b88af5;
+      margin-bottom: 10px;
+      text-shadow: 0 0 15px rgba(184,138,245,0.5);
+    }
+
+    h2 {
+      color: #8f7acc;
+      font-weight: normal;
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      opacity: 0.9;
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #d9d9d9;
+      margin-bottom: 40px;
+      line-height: 1.8;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .links a {
+      display: inline-block;
+      background: linear-gradient(135deg, #b88af5, #6c4fb5);
+      color: white;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.05em;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 20px rgba(150, 90, 200, 0.3);
+    }
+
+    .links a:hover {
+      background: linear-gradient(135deg, #6c4fb5, #b88af5);
+      transform: scale(1.08);
+      box-shadow: 0 0 25px rgba(184,138,245,0.6);
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #777;
+      font-size: 0.9em;
+      z-index: 2;
+    }
+
+    footer span {
+      color: #b88af5;
+    }
+
+    .tagline {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: #b88af5;
+      text-shadow: 0 0 8px rgba(184,138,245,0.5);
+      letter-spacing: 1px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="profile">
+    <h1>رميـاس الحربي 🖤</h1>
